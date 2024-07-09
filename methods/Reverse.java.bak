@@ -1,0 +1,15 @@
+class Reverse {
+	public static int add(int n){
+		int rev=0;
+		if(n!=0){
+			int r=n%10;
+			rev=rev*r;
+			return rev+add(n/10);
+		}
+		return add(n);
+	}
+	public static void main(String[] args) {
+		int n=12345;
+		System.out.println(add(n));
+	}
+}

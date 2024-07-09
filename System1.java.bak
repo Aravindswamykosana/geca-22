@@ -1,0 +1,5 @@
+class System1{
+	PrintStream1 out1=new PrintStream1();
+	System1 obj=new System1();
+	System.out.println(obj.out1.PrintStream1);
+}

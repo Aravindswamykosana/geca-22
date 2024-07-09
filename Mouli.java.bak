@@ -1,0 +1,18 @@
+class Mouli {
+	static int i=10;
+	int j=20;
+	static {
+		System.out.println("sib"+i);
+	}
+	{
+		System.out.println("iib"+j);
+	}
+	public static int run(int k){
+		System.out.println("from run"+k);
+		return 10;
+	}
+	public static void main(String [] args){
+		System.out.println("from main");
+		run(1);
+	}
+}

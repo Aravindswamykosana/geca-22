@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class  Bike11{
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) {
+		System.out.println("enter the bike brand::");
+		String brand=sc.next();
+		System.out.println("enter the bike speed::");
+		double topspeed=sc.nextDouble();
+		System.out.println("enter the bike milage::");
+		double milage=sc.nextDouble();
+		Bike b1=new Bike(brand,topspeed,milage);
+		b1.ride();
+		b1.travel();
+
+		System.out.println("*************");
+
+		Bike b2=new Bike();
+		System.out.println("enter the bike brand2::");
+		b2.brand=sc.next();
+		System.out.println("enter the bike colour2::");
+		b2.colour=sc.next();
+		System.out.println("enter the bike price 2::");
+		b2.price=sc.nextDouble();
+		System.out.println("enter the bike model 2::");
+		b2.model=sc.nextDouble();
+		b2.ride();
+		b2.travel();
+	}
+}

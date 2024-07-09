@@ -1,0 +1,12 @@
+class PrintStream1 {
+	public void println1(){
+		System.out.println("hai");
+	}
+	public void println1(int i){
+		System.out.println("hello");
+	}
+	public void println1(double d){
+		System.out.println("hello world!...");
+	}
+
+}

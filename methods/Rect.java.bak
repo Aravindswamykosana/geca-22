@@ -1,0 +1,8 @@
+class  Rect{
+	int length;
+	int breadth;
+	public void rect(){
+		int area=length*breadth;
+		System.out.println("Area of rectangle is :"+area);
+	}
+}
